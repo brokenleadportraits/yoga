@@ -1,0 +1,332 @@
+
+/*TOP NAV BRAND STYLE*/
+.navbar-brand {
+	font-family: 'Playfair Display', serif;
+	font-weight: 200;
+}
+
+/*SIDE NAV BAR STYLES*/
+#sidebar-wrapper {
+  top: 52px;
+  left: -200px;
+  width: 200px;
+  color: white;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  padding-top: 30%;
+  margin-left: 5px;
+  width: 250px;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 60px;
+  line-height: 50px;
+}
+
+.sidebar-nav li a {
+	font-family: 'Playfair Display', serif;
+	/*font-size: 1em;*/
+	font-weight: bold;
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+  background: rgba(255,255,255,0.25);
+  color: grey;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+#sidebar-wrapper.sidebar-toggle {
+  transition: all 0.3s ease-out;
+  margin-left: -200px;
+}
+
+@media (max-width: 992px) {
+  #sidebar-wrapper.sidebar-toggle {
+	background-color: #ffffcc;
+	}
+}
+
+@media (min-width: 992px) {
+  #sidebar-wrapper.sidebar-toggle {
+    transition: 0s;
+    left: 200px;
+  }
+}
+
+
+/*FIX FOR TOGGLE NAV DROPDOWN*/
+@media (max-width: 1006px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+
+
+/*****************INDEX STYLES*****************/
+
+#index-header {
+	margin-top: 70px;
+}
+
+#main-image {
+	padding-top: 30px;
+}
+
+#main-image h1, h2 {
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+}
+
+#social-icons {
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+}
+
+#explore {
+	margin-top: 15px;
+}
+
+#social-icons img {
+	position: relative;
+	height: auto;
+	padding: 20px;
+	margin: 20px;
+}
+
+@media (max-width: 992px) {
+	#social-icons img {
+		padding: 0px;
+		margin: 0px;
+		padding-top: 14px;
+	}
+}
+
+
+
+/*****************ABOUT STYLES******************/
+
+#about-section {
+	margin-top: 40px;
+}
+
+#about-main-content h1 {
+	font-family: 'Special Elite', cursive;
+	padding-top: 30px;
+}
+
+#about-main-content p {
+	font-family: 'Playfair Display', serif;
+}
+
+#right-col-about {
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+	font-size: 40px;
+}
+
+#aboutsection {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+/*CONTACT PAGE STYLES*/
+
+#contact-row {
+	margin-top: 80px;
+}
+
+#getintouch-space h1{
+		font-family: 'Special Elite', cursive;
+}
+
+#getintouch-space p {
+	font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 991px) {
+	#getintouch-space p {
+		text-align: center;
+	}
+}
+
+#contact-map {
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+#contact-map h1 {
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+}
+
+#contact-logo img  {
+	padding-right: 100px;
+}
+
+@media (max-width: 991px) {
+	#contact-logo img {
+		margin: 0 auto;
+		padding-right: 0px;
+		margin-top: 80px;
+	}
+}
+
+#contact-form-space {
+	margin-top: 50px;
+} 
+
+#contact-form-space h1 {
+	font-family: 'Special Elite', cursive;
+}
+
+
+
+/**************CLASSES SECTION*********/
+
+#classes-row {
+	margin-top: 70px;
+}
+
+@media (max-width: 991px) {
+	#classes-row img {
+		margin: 0 auto;
+	}
+}
+
+#beginner-times h1, #intermediate-times h1, #advanced-times h1 {
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+}
+
+#beginner-times, #intermediate-times, #advanced-times {
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+#beginner-classes {
+	margin-top: 80px;
+	padding-top: 80px;
+}
+
+#beginner-classes h3, h4 {
+	font-family: 'Special Elite', cursive;
+}
+
+#beginner-classes p {
+	font-family: 'Playfair Display', serif;
+}
+
+#intermediate-classes {
+	margin-top: 80px;
+	padding-top: 80px;
+}
+
+#intermediate-classes h3, h4 {
+	font-family: 'Special Elite', cursive;
+}
+
+#intermediate-classes p {
+	font-family: 'Playfair Display', serif;
+}
+
+#advanced-classes {
+	margin-top: 80px;
+	padding-top: 80px;
+}
+
+#advanced-classes h3, h4 {
+	font-family: 'Special Elite', cursive;
+}
+
+#advanced-classes p {
+	font-family: 'Playfair Display', serif;
+}
+
+
+
+/*************GALLERY STYLES*************/
+
+#gallerysection{
+	margin-bottom: 70px;
+}
+
+#gallery-row {
+	margin-top: 70px;
+}
+
+#gallery-header h1 {
+	font-family: 'Special Elite', cursive;
+}
+
+.carousel-caption {
+	background-color: black;
+	opacity: 0.5;
+}
+
+
+
+/*GALLERY PAGE STYLES*/
+
+#gallery-page {
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+#gallery-page-images img {
+	margin: 8px;
+}
+
+#gallery-page-images p, h1 {
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+}
