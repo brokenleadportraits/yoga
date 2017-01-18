@@ -1,2 +1,1 @@
-# yoga
-Static 
+Static Yoga Website created using bootstrap frontend framework
